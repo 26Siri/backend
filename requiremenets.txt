@@ -1,7 +1,3 @@
 flask
 flask-cors
 gunicorn
-# add your YOLO library dependencies, e.g.
-# torch
-# torchvision
-# opencv-python
