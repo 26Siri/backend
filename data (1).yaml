@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['HDPE Plastic', 'Multi-layer Plastic', 'PET Bottle', 'Single-Use-Plastic', 'Single-layer Plastic', 'Squeeze-Tube', 'UHT-Box']
+
+roboflow:
+  workspace: snowman1908
+  project: plastic-recyclable-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/snowman1908/plastic-recyclable-detection/dataset/3
